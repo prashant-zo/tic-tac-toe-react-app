@@ -1,0 +1,111 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #dbd8e3; /* First color */
+}
+
+/* Main game container */
+.game {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  color: #dbd8e3;
+}
+
+/* Board container */
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2438; /* Fourth color */
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Game status message */
+.status {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #dbd8e3; /* First color */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Board rows */
+.board-row {
+  display: flex;
+}
+
+/* Square button styling */
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #5c5470; /* Second color */
+  border: 2px solid #352f44; /* Third color */
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dbd8e3; /* First color for text */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.square:hover {
+  background-color: #352f44; /* Third color */
+  transform: scale(1.05);
+}
+
+.square:focus {
+  outline: none;
+  background-color: #2a2438; /* Fourth color */
+}
+
+/* Winning square highlight */
+.winning-square {
+  background-color: #dbd8e3; /* First color */
+  color: #2a2438; /* Fourth color for text */
+}
+
+/* Game information panel */
+.game-info {
+  font-size: 1rem;
+  max-width: 200px;
+  color: #352f44; /* Third color */
+}
+
+/* Moves list */
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Move button styling */
+button {
+  background-color: #5c5470; /* Second color */
+  color: #dbd8e3; /* First color */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #352f44; /* Third color */
+  transform: scale(1.05);
+}
