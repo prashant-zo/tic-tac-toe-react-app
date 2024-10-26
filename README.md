@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-This is a React-based Tic-Tac-Toe game developed as a learning project. The project follows the [React documentation tutorial](https://react.dev/learn/tutorial-tic-tac-toe) and is intended to improve my understanding of React fundamentals.
+This is a React-based Tic-Tac-Toe game developed as a learning project. The project follows the [React documentation tutorial) and is intended to improve my understanding of React fundamentals.
 
 ## Features
 - Classic Tic-Tac-Toe game mechanics.
